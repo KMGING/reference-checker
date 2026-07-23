@@ -2,6 +2,8 @@
 
 这是一个用于 **检查和保守修复 IEEE Transactions 参考文献格式** 的本地 Skill。
 
+参考文件是 IEEE Editorial Style Manual [https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/] 中的 IEEE Reference Guide
+
 它适合在论文投稿前处理 `.bib`、以 BibTeX 为主要内容的 `.tex`、LaTeX `thebibliography` / `\bibitem`，也可以检查对话中粘贴的 BibTeX、bibitem 或纯文本参考文献。
 
 默认策略是：**只检查、生成报告、不覆盖原始文件**。只有在用户明确要求“安全修复”或“生成修复副本”时，才会另存 `.ieee-fixed.*` 文件。

@@ -1,0 +1,47 @@
+[
+  {
+    "canonical_name": "Proc. {ACM} {SIGSAC} Conf. Comput. Commun. Secur. ({CCS})",
+    "aliases": [
+      "ACM Conference on Computer and Communications Security",
+      "ACM SIGSAC Conference on Computer and Communications Security",
+      "Proceedings of the ACM SIGSAC Conference on Computer and Communications Security",
+      "CCS"
+    ],
+    "fix_type": "SUGGESTED_FIX",
+    "source": {
+      "type": "IEEE Reference Guide word abbreviations",
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Conferences and Conference Proceedings / Common Abbreviations of Words in References",
+      "note": "Venue words are abbreviated with local guide rules; the exact official proceedings name remains year-sensitive."
+    },
+    "notes": ["Confirm the year-specific official ACM proceedings name before accepting the candidate."]
+  },
+  {
+    "canonical_name": "Proc. Netw. Distrib. Syst. Secur. Symp. ({NDSS})",
+    "aliases": [
+      "Network and Distributed System Security Symposium",
+      "Network and Distributed Systems Security Symposium",
+      "NDSS Symposium",
+      "NDSS"
+    ],
+    "fix_type": "SAFE_FIX",
+    "source": {
+      "type": "IEEE Reference Guide word abbreviations",
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Conferences and Conference Proceedings / Common Abbreviations of Words in References",
+      "note": "Network, Distributed, System, Security, and Symposium are mapped by the local guide; NDSS is a protected acronym."
+    }
+  },
+  {
+    "canonical_name": "Proc. {USENIX} Secur. Symp.",
+    "aliases": ["USENIX Security Symposium", "USENIX Security"],
+    "fix_type": "SUGGESTED_FIX",
+    "source": {
+      "type": "IEEE Reference Guide word abbreviations",
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Conferences and Conference Proceedings / Common Abbreviations of Words in References",
+      "note": "Security and Symposium follow the local word table; ordinal and official short-year label require proceedings metadata."
+    },
+    "notes": ["Add an ordinal or official short-year form only after metadata verification."]
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IEEE Reference Checker"
+  short_description: "Check and safely repair IEEE-style references."
+  default_prompt: "Use $ieee-reference-checker to check my bibliography against the local IEEE guide and safely generate a fixed copy."

@@ -1,0 +1,3163 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-20T08:02:54+00:00",
+    "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+    "extraction_method": "python-docx table extraction",
+    "record_count": 314,
+    "detected_tables": [
+      {
+        "table": 2,
+        "rows": 11,
+        "section": "Conferences and Conference Proceedings / common conference abbreviations"
+      },
+      {
+        "table": 3,
+        "rows": 351,
+        "section": "Common Abbreviations of Words in References"
+      }
+    ],
+    "paragraphs": 636
+  },
+  "abbreviations": {
+    "abstracts": {
+      "word": "Abstracts",
+      "abbreviation": "Abstr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 2
+      }
+    },
+    "academy": {
+      "word": "Academy",
+      "abbreviation": "Acad.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 3
+      }
+    },
+    "accelerator": {
+      "word": "Accelerator",
+      "abbreviation": "Accel.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 4
+      }
+    },
+    "acoustics": {
+      "word": "Acoustics",
+      "abbreviation": "Acoust.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 5
+      }
+    },
+    "active": {
+      "word": "Active",
+      "abbreviation": "Act.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 6
+      }
+    },
+    "administration": {
+      "word": "Administration",
+      "abbreviation": "Admin.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 7
+      }
+    },
+    "administrative": {
+      "word": "Administrative",
+      "abbreviation": "Administ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 8
+      }
+    },
+    "advanced": {
+      "word": "Advanced",
+      "abbreviation": "Adv.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 9
+      }
+    },
+    "aeronautics": {
+      "word": "Aeronautics",
+      "abbreviation": "Aeronaut.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 10
+      }
+    },
+    "aerospace": {
+      "word": "Aerospace",
+      "abbreviation": "Aerosp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 11
+      }
+    },
+    "affective": {
+      "word": "Affective",
+      "abbreviation": "Affect.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 12
+      }
+    },
+    "africa, african": {
+      "word": "Africa, African",
+      "abbreviation": "Afr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 13
+      }
+    },
+    "aircraft": {
+      "word": "Aircraft",
+      "abbreviation": "Aircr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 14
+      }
+    },
+    "algebraic": {
+      "word": "Algebraic",
+      "abbreviation": "Algebr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 15
+      }
+    },
+    "american": {
+      "word": "American",
+      "abbreviation": "Amer.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 16
+      }
+    },
+    "analysis": {
+      "word": "Analysis",
+      "abbreviation": "Anal.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 17
+      }
+    },
+    "annals": {
+      "word": "Annals",
+      "abbreviation": "Ann.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 1
+      }
+    },
+    "annual": {
+      "word": "Annual",
+      "abbreviation": "Annu.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 2
+      }
+    },
+    "apparatus": {
+      "word": "Apparatus",
+      "abbreviation": "App.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 20
+      }
+    },
+    "applications": {
+      "word": "Applications",
+      "abbreviation": "Appl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 21
+      }
+    },
+    "applied": {
+      "word": "Applied",
+      "abbreviation": "Appl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 22
+      }
+    },
+    "approximate": {
+      "word": "Approximate",
+      "abbreviation": "Approx.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 23
+      }
+    },
+    "architecture": {
+      "word": "Architecture",
+      "abbreviation": "Archit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 24
+      }
+    },
+    "archive(s)": {
+      "word": "Archive(s)",
+      "abbreviation": "Arch.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 25
+      }
+    },
+    "article": {
+      "word": "Article",
+      "abbreviation": "Art.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 26
+      }
+    },
+    "artificial": {
+      "word": "Artificial",
+      "abbreviation": "Artif.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 27
+      }
+    },
+    "assembly": {
+      "word": "Assembly",
+      "abbreviation": "Assem.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 28
+      }
+    },
+    "association": {
+      "word": "Association",
+      "abbreviation": "Assoc.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 29
+      }
+    },
+    "astronautics": {
+      "word": "Astronautics",
+      "abbreviation": "Astronaut.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 31
+      }
+    },
+    "astronomy": {
+      "word": "Astronomy",
+      "abbreviation": "Astron.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 30
+      }
+    },
+    "astrophysics": {
+      "word": "Astrophysics",
+      "abbreviation": "Astrophys.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 32
+      }
+    },
+    "atmosphere": {
+      "word": "Atmosphere",
+      "abbreviation": "Atmos.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 33
+      }
+    },
+    "atomic, atoms": {
+      "word": "Atomic, Atoms",
+      "abbreviation": "At.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 34
+      }
+    },
+    "australasian": {
+      "word": "Australasian",
+      "abbreviation": "Australas.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 35
+      }
+    },
+    "australia": {
+      "word": "Australia",
+      "abbreviation": "Aust.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 36
+      }
+    },
+    "automatic": {
+      "word": "Automatic",
+      "abbreviation": "Autom.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 37
+      }
+    },
+    "automation": {
+      "word": "Automation",
+      "abbreviation": "Automat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 38
+      }
+    },
+    "automotive": {
+      "word": "Automotive",
+      "abbreviation": "Automot.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 39
+      }
+    },
+    "autonomous": {
+      "word": "Autonomous",
+      "abbreviation": "Auton.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 40
+      }
+    },
+    "behavior(al)": {
+      "word": "Behavior(al)",
+      "abbreviation": "Behav.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 43
+      }
+    },
+    "belgian": {
+      "word": "Belgian",
+      "abbreviation": "Belg.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 44
+      }
+    },
+    "biochemical": {
+      "word": "Biochemical",
+      "abbreviation": "Biochem.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 45
+      }
+    },
+    "bioinformatics": {
+      "word": "Bioinformatics",
+      "abbreviation": "Bioinf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 46
+      }
+    },
+    "biology, biological": {
+      "word": "Biology, Biological",
+      "abbreviation": "Biol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 47
+      }
+    },
+    "biomedical": {
+      "word": "Biomedical",
+      "abbreviation": "Biomed.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 48
+      }
+    },
+    "biophysics": {
+      "word": "Biophysics",
+      "abbreviation": "Biophys.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 49
+      }
+    },
+    "british": {
+      "word": "British",
+      "abbreviation": "Brit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 50
+      }
+    },
+    "broadcasting": {
+      "word": "Broadcasting",
+      "abbreviation": "Broadcast.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 51
+      }
+    },
+    "bulletin": {
+      "word": "Bulletin",
+      "abbreviation": "Bull.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 52
+      }
+    },
+    "bureau": {
+      "word": "Bureau",
+      "abbreviation": "Bur.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 53
+      }
+    },
+    "business": {
+      "word": "Business",
+      "abbreviation": "Bus.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 54
+      }
+    },
+    "canadian": {
+      "word": "Canadian",
+      "abbreviation": "Can.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 57
+      }
+    },
+    "ceramic": {
+      "word": "Ceramic",
+      "abbreviation": "Ceram.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 58
+      }
+    },
+    "chemical": {
+      "word": "Chemical",
+      "abbreviation": "Chem.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 59
+      }
+    },
+    "chinese": {
+      "word": "Chinese",
+      "abbreviation": "Chin.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 60
+      }
+    },
+    "climatology": {
+      "word": "Climatology",
+      "abbreviation": "Climatol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 61
+      }
+    },
+    "clinical": {
+      "word": "Clinical",
+      "abbreviation": "Clin.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 62
+      }
+    },
+    "cognitive": {
+      "word": "Cognitive",
+      "abbreviation": "Cogn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 63
+      }
+    },
+    "colloquium": {
+      "word": "Colloquium",
+      "abbreviation": "Colloq.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 3
+      }
+    },
+    "communications": {
+      "word": "Communications",
+      "abbreviation": "Commun.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 65
+      }
+    },
+    "company": {
+      "word": "Company",
+      "abbreviation": "Co.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 66
+      }
+    },
+    "compatibility": {
+      "word": "Compatibility",
+      "abbreviation": "Compat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 67
+      }
+    },
+    "component(s)": {
+      "word": "Component(s)",
+      "abbreviation": "Compon.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 68
+      }
+    },
+    "computational": {
+      "word": "Computational",
+      "abbreviation": "Comput.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 69
+      }
+    },
+    "computer(s)": {
+      "word": "Computer(s)",
+      "abbreviation": "Comput.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 70
+      }
+    },
+    "computing": {
+      "word": "Computing",
+      "abbreviation": "Comput.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 71
+      }
+    },
+    "condensed": {
+      "word": "Condensed",
+      "abbreviation": "Condens.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 72
+      }
+    },
+    "conference": {
+      "word": "Conference",
+      "abbreviation": "Conf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 4
+      }
+    },
+    "congress": {
+      "word": "Congress",
+      "abbreviation": "Congr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 5
+      }
+    },
+    "consumer": {
+      "word": "Consumer",
+      "abbreviation": "Consum.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 75
+      }
+    },
+    "convention": {
+      "word": "Convention",
+      "abbreviation": "Conv.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 6
+      }
+    },
+    "conversion": {
+      "word": "Conversion",
+      "abbreviation": "Convers.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 76
+      }
+    },
+    "correspondence": {
+      "word": "Correspondence",
+      "abbreviation": "Corresp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 78
+      }
+    },
+    "critical": {
+      "word": "Critical",
+      "abbreviation": "Crit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 79
+      }
+    },
+    "crystal": {
+      "word": "Crystal",
+      "abbreviation": "Cryst.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 80
+      }
+    },
+    "crystallography": {
+      "word": "Crystallography",
+      "abbreviation": "Crystallogr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 81
+      }
+    },
+    "cybernetics": {
+      "word": "Cybernetics",
+      "abbreviation": "Cybern.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 82
+      }
+    },
+    "decision": {
+      "word": "Decision",
+      "abbreviation": "Decis.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 85
+      }
+    },
+    "delivery": {
+      "word": "Delivery",
+      "abbreviation": "Del.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 86
+      }
+    },
+    "department": {
+      "word": "Department",
+      "abbreviation": "Dept.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 87
+      }
+    },
+    "design": {
+      "word": "Design",
+      "abbreviation": "Des.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 88
+      }
+    },
+    "detector": {
+      "word": "Detector",
+      "abbreviation": "Detect.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 89
+      }
+    },
+    "development(al)": {
+      "word": "Development(al)",
+      "abbreviation": "Develop.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 90
+      }
+    },
+    "differential": {
+      "word": "Differential",
+      "abbreviation": "Differ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 91
+      }
+    },
+    "digest": {
+      "word": "Digest",
+      "abbreviation": "Dig.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 7
+      }
+    },
+    "digital": {
+      "word": "Digital",
+      "abbreviation": "Digit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 93
+      }
+    },
+    "disclosure": {
+      "word": "Disclosure",
+      "abbreviation": "Discl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 94
+      }
+    },
+    "discussions": {
+      "word": "Discussions",
+      "abbreviation": "Discuss.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 95
+      }
+    },
+    "dissertations": {
+      "word": "Dissertations",
+      "abbreviation": "Diss.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 96
+      }
+    },
+    "distributed": {
+      "word": "Distributed",
+      "abbreviation": "Distrib.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 97
+      }
+    },
+    "dynamics": {
+      "word": "Dynamics",
+      "abbreviation": "Dyn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 98
+      }
+    },
+    "earthquake": {
+      "word": "Earthquake",
+      "abbreviation": "Earthq.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 101
+      }
+    },
+    "economic(s)": {
+      "word": "Economic(s)",
+      "abbreviation": "Econ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 102
+      }
+    },
+    "edition": {
+      "word": "Edition",
+      "abbreviation": "Ed.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 103
+      }
+    },
+    "education": {
+      "word": "Education",
+      "abbreviation": "Educ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 104
+      }
+    },
+    "electrical": {
+      "word": "Electrical",
+      "abbreviation": "Elect.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 105
+      }
+    },
+    "electrification": {
+      "word": "Electrification",
+      "abbreviation": "Electrific.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 106
+      }
+    },
+    "electroacoustic": {
+      "word": "Electroacoustic",
+      "abbreviation": "Electroacoust.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 108
+      }
+    },
+    "electromagnetic": {
+      "word": "Electromagnetic",
+      "abbreviation": "Electromagn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 107
+      }
+    },
+    "electronic": {
+      "word": "Electronic",
+      "abbreviation": "Electron.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 109
+      }
+    },
+    "emerging": {
+      "word": "Emerging",
+      "abbreviation": "Emerg.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 110
+      }
+    },
+    "engineering": {
+      "word": "Engineering",
+      "abbreviation": "Eng.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 111
+      }
+    },
+    "environment": {
+      "word": "Environment",
+      "abbreviation": "Environ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 112
+      }
+    },
+    "equations": {
+      "word": "Equations",
+      "abbreviation": "Equ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 113
+      }
+    },
+    "equipment": {
+      "word": "Equipment",
+      "abbreviation": "Equip.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 114
+      }
+    },
+    "ergonomics": {
+      "word": "Ergonomics",
+      "abbreviation": "Ergonom.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 115
+      }
+    },
+    "european": {
+      "word": "European",
+      "abbreviation": "Eur.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 116
+      }
+    },
+    "evaluation": {
+      "word": "Evaluation",
+      "abbreviation": "Eval.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 117
+      }
+    },
+    "evolutionary": {
+      "word": "Evolutionary",
+      "abbreviation": "Evol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 118
+      }
+    },
+    "exhibition": {
+      "word": "Exhibition",
+      "abbreviation": "Exhib.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 119
+      }
+    },
+    "experimental": {
+      "word": "Experimental",
+      "abbreviation": "Exp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 120
+      }
+    },
+    "exploratory": {
+      "word": "Exploratory",
+      "abbreviation": "Explor.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 121
+      }
+    },
+    "exposition": {
+      "word": "Exposition",
+      "abbreviation": "Expo.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 8
+      }
+    },
+    "express": {
+      "word": "Express",
+      "abbreviation": "Exp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 123
+      }
+    },
+    "fabrication": {
+      "word": "Fabrication",
+      "abbreviation": "Fabr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 126
+      }
+    },
+    "faculty": {
+      "word": "Faculty",
+      "abbreviation": "Fac.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 127
+      }
+    },
+    "ferroelectrics": {
+      "word": "Ferroelectrics",
+      "abbreviation": "Ferroelect.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 128
+      }
+    },
+    "first": {
+      "word": "First",
+      "abbreviation": "1st",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 7
+      }
+    },
+    "foundation": {
+      "word": "Foundation",
+      "abbreviation": "Found.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 131
+      }
+    },
+    "fourth/nth...": {
+      "word": "Fourth/nth...",
+      "abbreviation": "4th/nth…",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 10
+      }
+    },
+    "francais, french": {
+      "word": "Francais, French",
+      "abbreviation": "Fr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 129
+      }
+    },
+    "frequency": {
+      "word": "Frequency",
+      "abbreviation": "Freq.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 130
+      }
+    },
+    "fundamental": {
+      "word": "Fundamental",
+      "abbreviation": "Fundam.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 132
+      }
+    },
+    "generation": {
+      "word": "Generation",
+      "abbreviation": "Gener.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 135
+      }
+    },
+    "geology": {
+      "word": "Geology",
+      "abbreviation": "Geol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 136
+      }
+    },
+    "geophysics": {
+      "word": "Geophysics",
+      "abbreviation": "Geophys.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 137
+      }
+    },
+    "geoscience": {
+      "word": "Geoscience",
+      "abbreviation": "Geosci.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 138
+      }
+    },
+    "graphics": {
+      "word": "Graphics",
+      "abbreviation": "Graph.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 139
+      }
+    },
+    "guidance": {
+      "word": "Guidance",
+      "abbreviation": "Guid.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 140
+      }
+    },
+    "harmonic(s)": {
+      "word": "Harmonic(s)",
+      "abbreviation": "Harmon.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 143
+      }
+    },
+    "history": {
+      "word": "History",
+      "abbreviation": "Hist.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 144
+      }
+    },
+    "horizon": {
+      "word": "Horizon",
+      "abbreviation": "Horiz.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 145
+      }
+    },
+    "hungary, hungarian": {
+      "word": "Hungary, Hungarian",
+      "abbreviation": "Hung.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 146
+      }
+    },
+    "hydraulics": {
+      "word": "Hydraulics",
+      "abbreviation": "Hydraul.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 147
+      }
+    },
+    "hydrology": {
+      "word": "Hydrology",
+      "abbreviation": "Hydrol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 148
+      }
+    },
+    "illuminating": {
+      "word": "Illuminating",
+      "abbreviation": "Illum.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 151
+      }
+    },
+    "imaging": {
+      "word": "Imaging",
+      "abbreviation": "Imag.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 152
+      }
+    },
+    "industrial": {
+      "word": "Industrial",
+      "abbreviation": "Ind.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 153
+      }
+    },
+    "informatics": {
+      "word": "Informatics",
+      "abbreviation": "Inform.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 155
+      }
+    },
+    "information": {
+      "word": "Information",
+      "abbreviation": "Inf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 154
+      }
+    },
+    "innovation": {
+      "word": "Innovation",
+      "abbreviation": "Innov.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 156
+      }
+    },
+    "institute": {
+      "word": "Institute",
+      "abbreviation": "Inst.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 157
+      }
+    },
+    "instrument": {
+      "word": "Instrument",
+      "abbreviation": "Instrum.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 158
+      }
+    },
+    "instrumentation": {
+      "word": "Instrumentation",
+      "abbreviation": "Instrum.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 159
+      }
+    },
+    "insulation": {
+      "word": "Insulation",
+      "abbreviation": "Insul.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 160
+      }
+    },
+    "integrated": {
+      "word": "Integrated",
+      "abbreviation": "Integr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 161
+      }
+    },
+    "intelligence": {
+      "word": "Intelligence",
+      "abbreviation": "Intell.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 162
+      }
+    },
+    "intelligent": {
+      "word": "Intelligent",
+      "abbreviation": "Intell.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 163
+      }
+    },
+    "interactions": {
+      "word": "Interactions",
+      "abbreviation": "Interact.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 164
+      }
+    },
+    "international": {
+      "word": "International",
+      "abbreviation": "Int.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 9
+      }
+    },
+    "isotopes": {
+      "word": "Isotopes",
+      "abbreviation": "Isot.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 166
+      }
+    },
+    "israel": {
+      "word": "Israel",
+      "abbreviation": "Isr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 167
+      }
+    },
+    "japan": {
+      "word": "Japan",
+      "abbreviation": "Jpn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 170
+      }
+    },
+    "journal": {
+      "word": "Journal",
+      "abbreviation": "J.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 171
+      }
+    },
+    "knowledge": {
+      "word": "Knowledge",
+      "abbreviation": "Knowl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 174
+      }
+    },
+    "laboratory(ies)": {
+      "word": "Laboratory(ies)",
+      "abbreviation": "Lab.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 177
+      }
+    },
+    "language": {
+      "word": "Language",
+      "abbreviation": "Lang.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 178
+      }
+    },
+    "learning": {
+      "word": "Learning",
+      "abbreviation": "Learn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 179
+      }
+    },
+    "letter(s)": {
+      "word": "Letter(s)",
+      "abbreviation": "Lett.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 180
+      }
+    },
+    "lightwave": {
+      "word": "Lightwave",
+      "abbreviation": "Lightw.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 181
+      }
+    },
+    "logic, logical": {
+      "word": "Logic, Logical",
+      "abbreviation": "Log.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 182
+      }
+    },
+    "luminescence": {
+      "word": "Luminescence",
+      "abbreviation": "Lumin.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 183
+      }
+    },
+    "machine": {
+      "word": "Machine",
+      "abbreviation": "Mach.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 186
+      }
+    },
+    "magazine": {
+      "word": "Magazine",
+      "abbreviation": "Mag.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 187
+      }
+    },
+    "magnetics": {
+      "word": "Magnetics",
+      "abbreviation": "Magn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 188
+      }
+    },
+    "management": {
+      "word": "Management",
+      "abbreviation": "Manage.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 189
+      }
+    },
+    "managing": {
+      "word": "Managing",
+      "abbreviation": "Manag.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 190
+      }
+    },
+    "manufacturing": {
+      "word": "Manufacturing",
+      "abbreviation": "Manuf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 191
+      }
+    },
+    "marine": {
+      "word": "Marine",
+      "abbreviation": "Mar.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 192
+      }
+    },
+    "material": {
+      "word": "Material",
+      "abbreviation": "Mater.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 193
+      }
+    },
+    "mathematical": {
+      "word": "Mathematical",
+      "abbreviation": "Math.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 194
+      }
+    },
+    "mathematics": {
+      "word": "Mathematics",
+      "abbreviation": "Math.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 195
+      }
+    },
+    "measurement": {
+      "word": "Measurement",
+      "abbreviation": "Meas.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 196
+      }
+    },
+    "mechanical": {
+      "word": "Mechanical",
+      "abbreviation": "Mech.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 197
+      }
+    },
+    "medical, medicine": {
+      "word": "Medical, Medicine",
+      "abbreviation": "Med.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 198
+      }
+    },
+    "meeting": {
+      "word": "Meeting",
+      "abbreviation": "Meeting",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 10
+      }
+    },
+    "metallurgy": {
+      "word": "Metallurgy",
+      "abbreviation": "Metall.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 200
+      }
+    },
+    "metals": {
+      "word": "Metals",
+      "abbreviation": "Met.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 199
+      }
+    },
+    "meteorology": {
+      "word": "Meteorology",
+      "abbreviation": "Meteorol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 201
+      }
+    },
+    "metropolitan": {
+      "word": "Metropolitan",
+      "abbreviation": "Metrop.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 202
+      }
+    },
+    "mexican, mexico": {
+      "word": "Mexican, Mexico",
+      "abbreviation": "Mex.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 203
+      }
+    },
+    "microelectromechanical": {
+      "word": "Microelectromechanical",
+      "abbreviation": "Microelectromech.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 204
+      }
+    },
+    "microgravity": {
+      "word": "Microgravity",
+      "abbreviation": "Microgr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 205
+      }
+    },
+    "microscopy": {
+      "word": "Microscopy",
+      "abbreviation": "Microsc.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 206
+      }
+    },
+    "microwave(s)": {
+      "word": "Microwave(s)",
+      "abbreviation": "Microw.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 207
+      }
+    },
+    "military": {
+      "word": "Military",
+      "abbreviation": "Mil.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 208
+      }
+    },
+    "modeling": {
+      "word": "Modeling",
+      "abbreviation": "Model.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 209
+      }
+    },
+    "molecular": {
+      "word": "Molecular",
+      "abbreviation": "Mol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 210
+      }
+    },
+    "monitoring": {
+      "word": "Monitoring",
+      "abbreviation": "Monit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 211
+      }
+    },
+    "multiphysics": {
+      "word": "Multiphysics",
+      "abbreviation": "Multiphys.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 212
+      }
+    },
+    "nanobioscience": {
+      "word": "Nanobioscience",
+      "abbreviation": "Nanobiosci.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 215
+      }
+    },
+    "nanotechnology": {
+      "word": "Nanotechnology",
+      "abbreviation": "Nanotechnol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 216
+      }
+    },
+    "national": {
+      "word": "National",
+      "abbreviation": "Nat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 11
+      }
+    },
+    "naval": {
+      "word": "Naval",
+      "abbreviation": "Nav.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 218
+      }
+    },
+    "navigation": {
+      "word": "Navigation",
+      "abbreviation": "Navig.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 219
+      }
+    },
+    "network, networking": {
+      "word": "Network, Networking",
+      "abbreviation": "Netw.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 220
+      }
+    },
+    "newsletter": {
+      "word": "Newsletter",
+      "abbreviation": "Newslett.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 221
+      }
+    },
+    "nondestructive": {
+      "word": "Nondestructive",
+      "abbreviation": "Nondestruct.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 222
+      }
+    },
+    "nuclear": {
+      "word": "Nuclear",
+      "abbreviation": "Nucl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 223
+      }
+    },
+    "numerical": {
+      "word": "Numerical",
+      "abbreviation": "Numer.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 224
+      }
+    },
+    "observations": {
+      "word": "Observations",
+      "abbreviation": "Observ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 227
+      }
+    },
+    "occupation": {
+      "word": "Occupation",
+      "abbreviation": "Occupat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 230
+      }
+    },
+    "oceanic": {
+      "word": "Oceanic",
+      "abbreviation": "Ocean.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 228
+      }
+    },
+    "oceanography": {
+      "word": "Oceanography",
+      "abbreviation": "Oceanogr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 229
+      }
+    },
+    "operational": {
+      "word": "Operational",
+      "abbreviation": "Oper.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 231
+      }
+    },
+    "optical": {
+      "word": "Optical",
+      "abbreviation": "Opt.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 232
+      }
+    },
+    "optics": {
+      "word": "Optics",
+      "abbreviation": "Opt.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 233
+      }
+    },
+    "optimization": {
+      "word": "Optimization",
+      "abbreviation": "Optim.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 234
+      }
+    },
+    "organization": {
+      "word": "Organization",
+      "abbreviation": "Org.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 235
+      }
+    },
+    "packaging": {
+      "word": "Packaging",
+      "abbreviation": "Packag.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 238
+      }
+    },
+    "particle": {
+      "word": "Particle",
+      "abbreviation": "Part.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 239
+      }
+    },
+    "patent": {
+      "word": "Patent",
+      "abbreviation": "Pat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 240
+      }
+    },
+    "performance": {
+      "word": "Performance",
+      "abbreviation": "Perform.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 241
+      }
+    },
+    "personal": {
+      "word": "Personal",
+      "abbreviation": "Pers.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 242
+      }
+    },
+    "philosophical": {
+      "word": "Philosophical",
+      "abbreviation": "Philos.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 243
+      }
+    },
+    "photonics": {
+      "word": "Photonics",
+      "abbreviation": "Photon.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 244
+      }
+    },
+    "photovoltaics": {
+      "word": "Photovoltaics",
+      "abbreviation": "Photovolt.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 245
+      }
+    },
+    "physics": {
+      "word": "Physics",
+      "abbreviation": "Phys.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 246
+      }
+    },
+    "physiology": {
+      "word": "Physiology",
+      "abbreviation": "Physiol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 247
+      }
+    },
+    "planetary": {
+      "word": "Planetary",
+      "abbreviation": "Planet.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 248
+      }
+    },
+    "pneumatics": {
+      "word": "Pneumatics",
+      "abbreviation": "Pneum.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 249
+      }
+    },
+    "pollution": {
+      "word": "Pollution",
+      "abbreviation": "Pollut.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 250
+      }
+    },
+    "polymer": {
+      "word": "Polymer",
+      "abbreviation": "Polym.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 251
+      }
+    },
+    "polytechnic": {
+      "word": "Polytechnic",
+      "abbreviation": "Polytech.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 252
+      }
+    },
+    "practice": {
+      "word": "Practice",
+      "abbreviation": "Pract.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 253
+      }
+    },
+    "precision": {
+      "word": "Precision",
+      "abbreviation": "Precis.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 254
+      }
+    },
+    "principles": {
+      "word": "Principles",
+      "abbreviation": "Princ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 255
+      }
+    },
+    "proceedings": {
+      "word": "Proceedings",
+      "abbreviation": "Proc.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 1
+      }
+    },
+    "processing": {
+      "word": "Processing",
+      "abbreviation": "Process.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 257
+      }
+    },
+    "production": {
+      "word": "Production",
+      "abbreviation": "Prod.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 258
+      }
+    },
+    "productivity": {
+      "word": "Productivity",
+      "abbreviation": "Productiv.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 259
+      }
+    },
+    "programmable": {
+      "word": "Programmable",
+      "abbreviation": "Program.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 260
+      }
+    },
+    "programming": {
+      "word": "Programming",
+      "abbreviation": "Program.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 261
+      }
+    },
+    "progress": {
+      "word": "Progress",
+      "abbreviation": "Prog.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 262
+      }
+    },
+    "propagation": {
+      "word": "Propagation",
+      "abbreviation": "Propag.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 263
+      }
+    },
+    "psychology": {
+      "word": "Psychology",
+      "abbreviation": "Psychol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 264
+      }
+    },
+    "quality": {
+      "word": "Quality",
+      "abbreviation": "Qual.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 267
+      }
+    },
+    "quarterly": {
+      "word": "Quarterly",
+      "abbreviation": "Quart.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 268
+      }
+    },
+    "radiation": {
+      "word": "Radiation",
+      "abbreviation": "Radiat.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 271
+      }
+    },
+    "radiology": {
+      "word": "Radiology",
+      "abbreviation": "Radiol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 272
+      }
+    },
+    "reactor": {
+      "word": "Reactor",
+      "abbreviation": "React.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 273
+      }
+    },
+    "receivers": {
+      "word": "Receivers",
+      "abbreviation": "Receiv.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 274
+      }
+    },
+    "recognition": {
+      "word": "Recognition",
+      "abbreviation": "Recognit.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 275
+      }
+    },
+    "record": {
+      "word": "Record",
+      "abbreviation": "Rec.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 2
+      }
+    },
+    "rehabilitation": {
+      "word": "Rehabilitation",
+      "abbreviation": "Rehabil.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 277
+      }
+    },
+    "reliability": {
+      "word": "Reliability",
+      "abbreviation": "Rel.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 278
+      }
+    },
+    "report": {
+      "word": "Report",
+      "abbreviation": "Rep.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 279
+      }
+    },
+    "research": {
+      "word": "Research",
+      "abbreviation": "Res.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 280
+      }
+    },
+    "resonance": {
+      "word": "Resonance",
+      "abbreviation": "Reson.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 281
+      }
+    },
+    "resources": {
+      "word": "Resources",
+      "abbreviation": "Resour.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 282
+      }
+    },
+    "review": {
+      "word": "Review",
+      "abbreviation": "Rev.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 283
+      }
+    },
+    "robotics": {
+      "word": "Robotics",
+      "abbreviation": "Robot.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 284
+      }
+    },
+    "royal": {
+      "word": "Royal",
+      "abbreviation": "Roy.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 285
+      }
+    },
+    "safety": {
+      "word": "Safety",
+      "abbreviation": "Saf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 288
+      }
+    },
+    "satellite": {
+      "word": "Satellite",
+      "abbreviation": "Satell.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 289
+      }
+    },
+    "scandinavian": {
+      "word": "Scandinavian",
+      "abbreviation": "Scand.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 290
+      }
+    },
+    "science": {
+      "word": "Science",
+      "abbreviation": "Sci.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 291
+      }
+    },
+    "second": {
+      "word": "Second",
+      "abbreviation": "2nd",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 8
+      }
+    },
+    "section": {
+      "word": "Section",
+      "abbreviation": "Sect.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 292
+      }
+    },
+    "security": {
+      "word": "Security",
+      "abbreviation": "Secur.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 293
+      }
+    },
+    "seismology": {
+      "word": "Seismology",
+      "abbreviation": "Seismol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 294
+      }
+    },
+    "selected": {
+      "word": "Selected",
+      "abbreviation": "Sel.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 295
+      }
+    },
+    "semiconductor": {
+      "word": "Semiconductor",
+      "abbreviation": "Semicond.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 296
+      }
+    },
+    "sensing": {
+      "word": "Sensing",
+      "abbreviation": "Sens.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 297
+      }
+    },
+    "series": {
+      "word": "Series",
+      "abbreviation": "Ser.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 298
+      }
+    },
+    "simulation": {
+      "word": "Simulation",
+      "abbreviation": "Simul.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 299
+      }
+    },
+    "singapore": {
+      "word": "Singapore",
+      "abbreviation": "Singap.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 300
+      }
+    },
+    "sistema": {
+      "word": "Sistema",
+      "abbreviation": "Sist.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 301
+      }
+    },
+    "society": {
+      "word": "Society",
+      "abbreviation": "Soc.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 302
+      }
+    },
+    "sociological": {
+      "word": "Sociological",
+      "abbreviation": "Sociol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 303
+      }
+    },
+    "software": {
+      "word": "Software",
+      "abbreviation": "Softw.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 304
+      }
+    },
+    "solar": {
+      "word": "Solar",
+      "abbreviation": "Sol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 305
+      }
+    },
+    "soviet": {
+      "word": "Soviet",
+      "abbreviation": "Sov.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 306
+      }
+    },
+    "spectroscopy": {
+      "word": "Spectroscopy",
+      "abbreviation": "Spectrosc.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 307
+      }
+    },
+    "spectrum": {
+      "word": "Spectrum",
+      "abbreviation": "Spectr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 308
+      }
+    },
+    "speculations": {
+      "word": "Speculations",
+      "abbreviation": "Specul.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 309
+      }
+    },
+    "statistics": {
+      "word": "Statistics",
+      "abbreviation": "Statist.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 310
+      }
+    },
+    "structure": {
+      "word": "Structure",
+      "abbreviation": "Struct.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 311
+      }
+    },
+    "studies": {
+      "word": "Studies",
+      "abbreviation": "Stud.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 312
+      }
+    },
+    "superconductivity": {
+      "word": "Superconductivity",
+      "abbreviation": "Supercond.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 313
+      }
+    },
+    "supplement": {
+      "word": "Supplement",
+      "abbreviation": "Suppl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 314
+      }
+    },
+    "surface": {
+      "word": "Surface",
+      "abbreviation": "Surf.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 315
+      }
+    },
+    "survey": {
+      "word": "Survey",
+      "abbreviation": "Surv.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 316
+      }
+    },
+    "sustainable": {
+      "word": "Sustainable",
+      "abbreviation": "Sustain.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 317
+      }
+    },
+    "symposium": {
+      "word": "Symposium",
+      "abbreviation": "Symp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 3
+      }
+    },
+    "systems": {
+      "word": "Systems",
+      "abbreviation": "Syst.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 319
+      }
+    },
+    "technical": {
+      "word": "Technical",
+      "abbreviation": "Tech.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 322
+      }
+    },
+    "technical digest": {
+      "word": "Technical Digest",
+      "abbreviation": "Tech. Dig.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 4
+      }
+    },
+    "technical paper": {
+      "word": "Technical Paper",
+      "abbreviation": "Tech. Paper",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 5
+      }
+    },
+    "techniques": {
+      "word": "Techniques",
+      "abbreviation": "Techn.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 323
+      }
+    },
+    "technology": {
+      "word": "Technology",
+      "abbreviation": "Technol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 324
+      }
+    },
+    "telecommunications": {
+      "word": "Telecommunications",
+      "abbreviation": "Telecommun.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 325
+      }
+    },
+    "television": {
+      "word": "Television",
+      "abbreviation": "Telev.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 326
+      }
+    },
+    "temperature": {
+      "word": "Temperature",
+      "abbreviation": "Temp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 327
+      }
+    },
+    "terrestrial": {
+      "word": "Terrestrial",
+      "abbreviation": "Terr.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 328
+      }
+    },
+    "theorem": {
+      "word": "Theorem",
+      "abbreviation": "Thm.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 329
+      }
+    },
+    "theoretical": {
+      "word": "Theoretical",
+      "abbreviation": "Theor.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 330
+      }
+    },
+    "third": {
+      "word": "Third",
+      "abbreviation": "3rd",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 9
+      }
+    },
+    "transactions": {
+      "word": "Transactions",
+      "abbreviation": "Trans.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 331
+      }
+    },
+    "translation": {
+      "word": "Translation",
+      "abbreviation": "Transl.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 332
+      }
+    },
+    "transmission": {
+      "word": "Transmission",
+      "abbreviation": "Transmiss.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 333
+      }
+    },
+    "transportation": {
+      "word": "Transportation",
+      "abbreviation": "Transp.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 334
+      }
+    },
+    "tutorials": {
+      "word": "Tutorials",
+      "abbreviation": "Tut.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 335
+      }
+    },
+    "ultrasonic": {
+      "word": "Ultrasonic",
+      "abbreviation": "Ultrason.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 338
+      }
+    },
+    "university": {
+      "word": "University",
+      "abbreviation": "Univ.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 339
+      }
+    },
+    "vacuum": {
+      "word": "Vacuum",
+      "abbreviation": "Vac.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 342
+      }
+    },
+    "vehicular": {
+      "word": "Vehicular",
+      "abbreviation": "Veh.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 343
+      }
+    },
+    "vibration": {
+      "word": "Vibration",
+      "abbreviation": "Vib.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 344
+      }
+    },
+    "vision": {
+      "word": "Vision",
+      "abbreviation": "Vis.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 345
+      }
+    },
+    "visual": {
+      "word": "Visual",
+      "abbreviation": "Vis.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 346
+      }
+    },
+    "volume": {
+      "word": "Volume",
+      "abbreviation": "Vol.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 347
+      }
+    },
+    "welding": {
+      "word": "Welding",
+      "abbreviation": "Weld.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 350
+      }
+    },
+    "working": {
+      "word": "Working",
+      "abbreviation": "Work.",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Common Abbreviations of Words in References",
+        "table": 3,
+        "row": 351
+      }
+    },
+    "workshop": {
+      "word": "Workshop",
+      "abbreviation": "Workshop",
+      "source": {
+        "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+        "section": "Conferences and Conference Proceedings / common conference abbreviations",
+        "table": 2,
+        "row": 6
+      }
+    }
+  }
+}

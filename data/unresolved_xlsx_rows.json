@@ -1,0 +1,18 @@
+[
+  {
+    "sheet": "Sheet1",
+    "row": 2,
+    "full_title": null,
+    "internal_acronym": null,
+    "reference_abbreviation": "*denotes past acronyms/abbreviations of journals",
+    "reason": "missing usable full title or current reference abbreviation"
+  },
+  {
+    "sheet": "Sheet1",
+    "row": 29,
+    "full_title": "BITS the Information Theory Magazine, IEEE",
+    "internal_acronym": null,
+    "reference_abbreviation": null,
+    "reason": "missing usable full title or current reference abbreviation"
+  }
+]

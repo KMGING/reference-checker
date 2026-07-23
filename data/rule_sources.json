@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-20T08:02:54+00:00"
+  },
+  "rules": {
+    "IEEE-JOURNAL-001": {
+      "source_file": "List_of_IEEE_Journal_Magazine_Titles_Internal_Acronym_and_Reference_Abbreviation.xlsx",
+      "section": "Journal/Magazine title table",
+      "location": "per-record worksheet row"
+    },
+    "IEEE-CONF-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Conferences and Conference Proceedings",
+      "keywords": [
+        "Proceedings",
+        "Conference",
+        "Symposium",
+        "International",
+        "Annual"
+      ]
+    },
+    "IEEE-VENUE-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Common Abbreviations of Words in References",
+      "location": "per-word table row or PDF page"
+    },
+    "IEEE-AUTHOR-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "II. Style",
+      "keywords": [
+        "list names of all authors",
+        "et al."
+      ]
+    },
+    "IEEE-DOI-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Periodicals / Conference Proceedings With DOI",
+      "keywords": [
+        "doi"
+      ]
+    },
+    "IEEE-PAGES-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Periodicals / Conference Proceedings",
+      "keywords": [
+        "pp.",
+        "Art no."
+      ]
+    },
+    "IEEE-TITLE-001": {
+      "source_file": "SKILL.md",
+      "section": "Safe edit policy / title case protection",
+      "basis": "BibTeX case-changing styles require braces around confirmed acronyms and system names."
+    },
+    "IEEE-SYNTAX-004": {
+      "source_file": "SKILL.md",
+      "section": "Safe edit policy / minimal BibTeX normalization",
+      "basis": "Known field names are normalized to lowercase without changing their values or order."
+    },
+    "IEEE-FIELD-001": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Basic Format blocks by reference type",
+      "keywords": [
+        "Basic Format"
+      ]
+    },
+    "IEEE-CONF-003": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Conferences and Conference Proceedings / Common Abbreviations of Words in References",
+      "keywords": [
+        "Proc.",
+        "Conf.",
+        "Symp.",
+        "Int.",
+        "Annu."
+      ]
+    },
+    "IEEE-JOURNAL-010": {
+      "source_file": "IEEE_Reference_Style_Guide_for_Authors.docx",
+      "section": "Periodicals / Common Abbreviations of Words in References",
+      "policy": "Only sourced word rules are applied; unresolved words are retained for manual review."
+    }
+  }
+}

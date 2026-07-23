@@ -1,272 +1,270 @@
 # IEEE Reference Checker Skill
 
-这是一个用于 **检查和保守修复 IEEE Transactions 参考文献格式** 的本地 Skill。
+Language: English | [中文](README.zh-CN.md)
 
-参考文件是 [IEEE Editorial Style Manual](https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/) 中的 IEEE Reference Guide
+This is a local skill for **checking and conservatively fixing IEEE Transactions reference formats**.
 
-它适合在论文投稿前处理 `.bib`、以 BibTeX 为主要内容的 `.tex`、LaTeX `thebibliography` / `\bibitem`，也可以检查对话中粘贴的 BibTeX、bibitem 或纯文本参考文献。
+The reference source is the IEEE Reference Guide in the [IEEE Editorial Style Manual](https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/).
 
-默认策略是：**只检查、生成报告、不覆盖原始文件**。只有在用户明确要求“安全修复”或“生成修复副本”时，才会另存 `.ieee-fixed.*` 文件。
+It is designed for pre-submission bibliography cleanup. It supports `.bib` files, `.tex` files that mainly contain BibTeX entries, LaTeX `thebibliography` / `\bibitem` references, and BibTeX, bibitem, or plain-text references pasted into the conversation.
 
-## 如何使用
+The default policy is: **check only, generate reports, and do not overwrite the original file**. A separate `.ieee-fixed.*` file is generated only when the user explicitly asks for safe fixes or a fixed copy.
 
-通常不需要自己运行 Python 命令。你只要在 Codex 里用自然语言说明要检查哪个参考文献文件、是否只检查、是否生成修复副本即可。
+## How to Use
 
-首次使用前需要安装依赖。可以直接对 Codex 说：
+You usually do not need to run Python commands yourself. In Codex, describe in natural language which bibliography file you want to check, whether you only want a report, and whether you want a fixed copy.
+
+Before first use, install the dependencies. You can tell Codex:
 
 ```text
-为 ieee-reference-checker 安装依赖。
+Install dependencies for ieee-reference-checker.
 ```
 
-对应的 Python 命令是：
+The corresponding Python commands are:
 
 ```bash
 cd ~/.codex/skills/ieee-reference-checker
 python -m pip install -r requirements.txt
 ```
 
-如果你只说“检查这个参考文献文件”，没有额外要求，默认行为是：**只生成 Markdown/JSON 检查报告，不修改原文件，也不生成修复副本**。
+If you simply say "check this bibliography file" without any extra requirement, the default behavior is: **generate Markdown/JSON reports only, do not modify the original file, and do not generate a fixed copy**.
 
-默认等价命令是：
+The equivalent default command is:
 
 ```bash
 python scripts/check_bibliography.py /path/to/ref.bib --check-only
 ```
 
-最推荐的安全说法是：
+The safest recommended request is:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/ref.bib，只生成报告，不修改原文件。
+Use ieee-reference-checker to check /path/to/ref.bib, generate reports only, and do not modify the original file.
 ```
 
-如果你的参考文献写在 LaTeX 论文里，也可以这样说：
+If the references are inside a LaTeX paper, you can say:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/main.tex 里的参考文献，只检查，不修改源文件。
+Use ieee-reference-checker to check the references in /path/to/main.tex. Check only and do not modify the source file.
 ```
 
-Codex 会自动识别输入是 `.bib`、BibTeX 风格的 `.tex`、`thebibliography` / `\bibitem`，还是粘贴的单条参考文献。
+Codex will automatically detect whether the input is a `.bib` file, a BibTeX-style `.tex` file, a `thebibliography` / `\bibitem` bibliography, or a single pasted reference.
 
+### Common Natural-Language Requests
 
-
-### 常用自然语言请求
-
-只检查并生成报告：
+Check only and generate reports:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/ref.bib，只生成检查报告。
+Use ieee-reference-checker to check /path/to/ref.bib and generate a report only.
 ```
 
-检查 LaTeX 文件里的内联 `bibitem`：
+Check inline `bibitem` references in a LaTeX file:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/main.tex 的参考文献，不要修改原文件。
+Use ieee-reference-checker to check the references in /path/to/main.tex. Do not modify the original file.
 ```
 
-生成一个独立修复文件，但保留原文件：
+Generate a separate fixed file while keeping the original file:
 
 ```text
-使用 ieee-reference-checker 检查并安全修复 /path/to/ref.bib，生成单独的 fixed 文件，不要覆盖原文件。
+Use ieee-reference-checker to check and safely fix /path/to/ref.bib. Generate a separate fixed file and do not overwrite the original file.
 ```
 
-只检查某一个 citation key：
+Check only one citation key:
 
 ```text
-使用 ieee-reference-checker 只检查 /path/to/ref.bib 里的 carlini2021extracting 这条参考文献。
+Use ieee-reference-checker to check only the carlini2021extracting reference in /path/to/ref.bib.
 ```
 
-只检查期刊、会议名称缩写：
+Check only journal or conference venue formatting:
 
 ```text
-使用 ieee-reference-checker 只检查 /path/to/ref.bib 的 venue 格式。
+Use ieee-reference-checker to check only venue formatting in /path/to/ref.bib.
 ```
 
-只检查缺失字段：
+Check missing fields only:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/ref.bib 里哪些条目缺少 DOI、页码、卷期等字段。
+Use ieee-reference-checker to check which entries in /path/to/ref.bib are missing DOI, pages, volume, issue, or similar fields.
 ```
 
-检查一条粘贴的 BibTeX：
+Check one pasted BibTeX entry:
 
 ```text
-使用 ieee-reference-checker 检查下面这条 BibTeX，并告诉我哪些地方不符合 IEEE 格式：
+Use ieee-reference-checker to check the following BibTeX entry and tell me what does not follow IEEE style:
 
 @article{key,
   title={...}
 }
 ```
 
-需要联网核验 DOI 时，明确说出来：
+If DOI verification needs network access, say so explicitly:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/ref.bib，并联网核验 DOI 是否存在。
+Use ieee-reference-checker to check /path/to/ref.bib and verify DOI existence online.
 ```
 
-默认不会联网。
+Online verification is disabled by default.
 
+### Recommended Workflow
 
-
-### 推荐工作流
-
-先检查：
+First, check only:
 
 ```text
-使用 ieee-reference-checker 检查 /path/to/ref.bib，只生成报告，不修改原文件。
+Use ieee-reference-checker to check /path/to/ref.bib, generate reports only, and do not modify the original file.
 ```
 
-确认报告后，再生成修复副本：
+After reviewing the report, generate a fixed copy:
 
 ```text
-使用 ieee-reference-checker 对 /path/to/ref.bib 应用安全修复，生成独立修复文件，不覆盖原文件。
+Use ieee-reference-checker to apply safe fixes to /path/to/ref.bib. Generate a separate fixed file and do not overwrite the original file.
 ```
 
-最后验证修复副本：
+Finally, verify the fixed copy:
 
 ```text
-使用 ieee-reference-checker 验证 /path/to/ref.ieee-fixed.bib 是否还有可安全修复的问题。
+Use ieee-reference-checker to verify whether /path/to/ref.ieee-fixed.bib still has safely fixable issues.
 ```
 
-## 输出结果
+## Outputs
 
-对 `ref.bib`，通常会生成：
+For `ref.bib`, the usual outputs are:
 
-- `ref.ieee-report.md`：给人阅读的问题报告。
-- `ref.ieee-report.json`：结构化检查结果。
-- `ref.ieee-fixed.bib`：修复后的独立文件，仅在请求生成修复副本时创建。
+- `ref.ieee-report.md`: a human-readable issue report.
+- `ref.ieee-report.json`: structured check results.
+- `ref.ieee-fixed.bib`: a separate fixed file, created only when a fixed copy is requested.
 
-对 `.tex` 输入，报告仍会生成在同目录；如果请求修复副本，修复文件保持 `.tex` 后缀。
+For `.tex` input, reports are still generated in the same directory. If a fixed copy is requested, the fixed file keeps the `.tex` suffix.
 
-## 安全原则
+## Safety Principles
 
-默认行为是非破坏性的：
+The default behavior is non-destructive:
 
-- 不覆盖原始 `.bib` 或 `.tex`。
-- 不改 citation key。
-- 不重排条目和字段。
-- 不删除注释、自定义字段或重复条目。
-- 不凭空生成 DOI、页码、卷号、期号、年份、会议届次、作者、出版社或文章编号。
+- Do not overwrite the original `.bib` or `.tex` file.
+- Do not change citation keys.
+- Do not reorder entries or fields.
+- Do not delete comments, custom fields, or duplicate entries.
+- Do not invent DOI, pages, volume, issue, year, conference ordinal, author, publisher, or article number.
 
-如果你明确要求“直接修改原文件”，Codex 才会使用原地修改模式。该模式会先创建 `原文件.bak`，如果备份已存在则拒绝覆盖。
+Codex uses in-place modification only when you explicitly ask to "modify the original file directly." In that mode, it first creates `FILE.bak`; if the backup already exists, it refuses to overwrite it.
 
-## 对应的 Python 命令
+## Corresponding Python Commands
 
-自然语言请求最终会映射到本地脚本。需要手动运行时，在 skill 目录执行：
+Natural-language requests are mapped to local scripts. To run them manually, execute commands from the skill directory:
 
 ```bash
 cd ~/.codex/skills/ieee-reference-checker
 ```
 
-安装依赖：
+Install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-只检查，不生成修复文件：
+Check only, without generating a fixed file:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --check-only
 ```
 
-生成独立修复文件：
+Generate a separate fixed file:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --fix
 ```
 
-验证修复结果：
+Verify the fixed result:
 
 ```bash
 python scripts/verify_fixed_bib.py ref.ieee-fixed.bib
 ```
 
-只检查一个 citation key：
+Check only one citation key:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --key carlini2021extracting
 ```
 
-只检查 venue：
+Check only venue formatting:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --only venue
 ```
 
-只检查缺失字段：
+Check only missing fields:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --only missing
 ```
 
-检查单独条目：
+Check a single entry:
 
 ```bash
 python scripts/check_single_entry.py --stdin
 ```
 
-显式原地修改：
+Explicit in-place modification:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --fix --in-place
 ```
 
-## Skill 会自动修什么
+## What the Skill Can Fix Automatically
 
-`SAFE_FIX` 包括：
+`SAFE_FIX` includes:
 
-- 将 DOI resolver、`doi:` 前缀、空格和尾部标点规范化为纯 DOI。
-- 将数字页码范围中的 `-` 改为 `--`，并删除 BibTeX `pages` 字段里的 `pp.`。
-- 将 XLSX 精确匹配的 IEEE 期刊名替换为官方 `Reference Abbreviation`。
-- 对已确认缩写或系统名添加局部大括号保护。
-- 规范化已知字段名的小写形式。
-- 应用 `venue_exceptions.yml` 中明确标为 `SAFE_FIX` 的会议形式。
+- Normalize DOI resolver URLs, `doi:` prefixes, spaces, and trailing punctuation into plain DOI values.
+- Convert numeric page ranges from `-` to `--`, and remove `pp.` from BibTeX `pages` fields.
+- Replace exactly matched IEEE journal names with the official `Reference Abbreviation` from the XLSX.
+- Add local brace protection for confirmed acronyms or system names.
+- Normalize known field names to lowercase.
+- Apply conference forms explicitly marked as `SAFE_FIX` in `venue_exceptions.yml`.
 
-## 哪些问题只提示人工确认
+## What Requires Manual Confirmation
 
-`SUGGESTED_FIX` 或 `MANUAL_REVIEW` 包括：
+`SUGGESTED_FIX` or `MANUAL_REVIEW` includes:
 
-- 缺失 DOI、页码、卷期、月份、访问日期等元数据。
-- 作者逗号结构、`et al.`、组织作者或不完整作者列表。
-- USENIX Security 的届次或官方年份简称。
-- CCS 等存在年份敏感正式名称的会议。
-- 非 IEEE venue 中指南没有覆盖的词。
-- 文章编号与页码字段选择。
-- arXiv 与正式版本、重复条目的合并或删除。
-- DOI、标题、年份或出版机构冲突。
+- Missing DOI, pages, volume, issue, month, access date, or similar metadata.
+- Author comma structure, `et al.`, organizational authors, or incomplete author lists.
+- USENIX Security ordinal or official year label.
+- Venues such as CCS whose official names are year-sensitive.
+- Non-IEEE venue words not covered by the guide.
+- Choosing between article number and page fields.
+- arXiv versus formal versions, and merging or deleting duplicate entries.
+- DOI/title, year, or publisher conflicts.
 
-Skill 永不凭空生成 DOI、页码、卷号、期号、年份、会议届次、作者、出版社或文章编号。
+The skill never invents DOI, pages, volume, issue, year, conference ordinal, author, publisher, or article number.
 
-## IEEEabrv 项目处理
+## IEEEabrv Project Handling
 
-检查器会扫描输入文件同目录的 `.tex`，记录是否出现 `\bibliography{IEEEabrv,...}` 或相关配置，以及是否存在 `IEEEabrv.bib`。
+The checker scans `.tex` files in the same directory as the input file and records whether `\bibliography{IEEEabrv,...}` or related configuration appears, and whether `IEEEabrv.bib` exists.
 
-由 XLSX 内部 acronym 可确定的 `IEEE_J_*` 宏会保留；无法解析的宏只报告，不强制展开。若同一数据库混用宏与字符串，会提示保持项目现有一致约定。
+`IEEE_J_*` macros that can be resolved from internal XLSX acronyms are preserved. Unresolved macros are reported only and are not forcibly expanded. If the same database mixes macros and literal strings, the checker suggests keeping the project's existing convention consistent.
 
-## 在线核验
+## Online Verification
 
-默认完全关闭。需要时显式启用：
+Online verification is completely disabled by default. Enable it explicitly when needed:
 
 ```bash
 python scripts/check_bibliography.py ref.bib --verify-online
 ```
 
-当前在线实现只使用 Crossref DOI API 验证 DOI 是否存在和标题相似度，并记录 provider 与请求 URL。它不会自动覆盖作者、页码、年份、卷期或 DOI。arXiv、出版社 proceedings、DBLP 等事实核验仍需人工或后续扩展；Google Scholar 不作为唯一来源。
+The current online implementation only uses the Crossref DOI API to verify DOI existence and title similarity, and records the provider and request URL. It does not automatically overwrite author, page, year, volume, issue, or DOI metadata. arXiv, publisher proceedings, DBLP, and similar factual checks still require manual review or future extension. Google Scholar is not used as the sole metadata source.
 
-## 本地规则来源
+## Local Rule Sources
 
-当前 Skill 随附：
+This skill includes:
 
 - `references/IEEE_Reference_Style_Guide_for_Authors.docx`
 - `references/List_of_IEEE_Journal_Magazine_Titles_Internal_Acronym_and_Reference_Abbreviation.xlsx`
 
-原工作区提供的是 DOCX 指南，不是 PDF。构建器直接读取 DOCX 的文本与表格；也支持带可用文本层的 PDF。PDF 没有文本层时会明确失败，不会默认 OCR。原始来源文件不会被修改。
+The original workspace provides a DOCX guide, not a PDF. The builder reads text and tables directly from the DOCX. It also supports PDFs with an available text layer. If a PDF has no text layer, the builder fails explicitly and does not run OCR by default. The original source files are not modified.
 
-XLSX 使用 `openpyxl`，自动寻找 `Title` / `Full Title`、`Internal Acronym` / `Journal/Magazine`、`Reference Abbreviation` 等语义列，不依赖固定列号。指南 DOCX 使用 `python-docx` 识别会议常用词表和 `Common Abbreviations of Words in References` 表。每条期刊记录保留工作表和行号，每条单词规则保留章节、表格和行号。
+The XLSX reader uses `openpyxl` and automatically finds semantic columns such as `Title` / `Full Title`, `Internal Acronym` / `Journal/Magazine`, and `Reference Abbreviation`; it does not depend on fixed column numbers. The DOCX guide is read with `python-docx` to identify common conference word lists and the `Common Abbreviations of Words in References` table. Each journal record preserves its worksheet and row number, and each word rule preserves its section, table, and row number.
 
-## 重建规则库
+## Rebuilding the Rule Database
 
-替换 IEEE 指南或期刊缩写表后，可以重建本地规则库：
+After replacing the IEEE guide or journal-abbreviation workbook, rebuild the local rule database:
 
 ```bash
 python scripts/build_rule_database.py \
@@ -274,7 +272,7 @@ python scripts/build_rule_database.py \
   --journals references/List_of_IEEE_Journal_Magazine_Titles_Internal_Acronym_and_Reference_Abbreviation.xlsx
 ```
 
-若替换成 PDF：
+If the guide is replaced with a PDF:
 
 ```bash
 python scripts/build_rule_database.py \
@@ -282,7 +280,7 @@ python scripts/build_rule_database.py \
   --journals references/List_of_IEEE_Journal_Magazine_Titles_Internal_Acronym_and_Reference_Abbreviation.xlsx
 ```
 
-输出文件：
+Output files:
 
 - `data/ieee_journal_abbreviations.json`
 - `data/ieee_word_abbreviations.json`
@@ -290,24 +288,24 @@ python scripts/build_rule_database.py \
 - `data/unresolved_pdf_rules.txt`
 - `data/unresolved_xlsx_rows.json`
 
-当前本地数据生成 267 条可用 IEEE 期刊/杂志记录和 314 条通用/会议单词缩写。XLSX 中存在格式化产生的空行；数量指可用数据记录，不是工作表最大行号。
+The current local data contains 267 usable IEEE journal/magazine records and 314 general/conference word abbreviations. The XLSX includes blank rows caused by formatting; these counts refer to usable data records, not the maximum worksheet row number.
 
-更新 IEEE 文件时建议：
+Recommended steps when updating IEEE files:
 
-1. 保留旧文件备份，但不要改写 IEEE 原文件。
-2. 用新版本替换 `references/` 中对应 DOCX/PDF 或 XLSX。
-3. 重新运行 `build_rule_database.py`。
-4. 查看 `unresolved_pdf_rules.txt` 和 `unresolved_xlsx_rows.json`。
-5. 用自己的 `.bib` 样例执行 `--fix`，再运行 `verify_fixed_bib.py` 验证修复结果。
+1. Keep backups of old files, but do not modify the original IEEE source files.
+2. Replace the corresponding DOCX/PDF or XLSX in `references/`.
+3. Run `build_rule_database.py` again.
+4. Review `unresolved_pdf_rules.txt` and `unresolved_xlsx_rows.json`.
+5. Run `--fix` on your own `.bib` sample, then run `verify_fixed_bib.py` to verify the fixed result.
 
-## 已知限制
+## Known Limitations
 
-- 自带解析器面向常见 BibTeX；复杂 BibLaTeX 值拼接、跨字段宏表达式或严重损坏条目可能需要人工处理。
-- 纯文本参考文献只能做保守模式诊断，不能可靠恢复所有字段。
-- 非 IEEE venue 只使用本地指南中的词级规则；未覆盖的词不会猜测。
-- DOCX 表格能可靠提取当前指南；不同版式 PDF 的表格文本可能进入 unresolved 文件，需要人工核对。
-- 期刊工作簿包含历史 acronym/缩写；运行时以每行首个当前参考缩写作为主要值，并保留原始别名和来源行。
-- 格式检查通过不等于作者、题目、年份、卷期、页码和 DOI 已与出版社元数据核验。
+- The bundled parser targets common BibTeX. Complex BibLaTeX value concatenation, cross-field macro expressions, or heavily damaged entries may require manual handling.
+- Plain-text references can only be diagnosed conservatively and cannot reliably recover all fields.
+- Non-IEEE venues use only word-level rules extracted from the local guide; uncovered words are not guessed.
+- DOCX tables can be extracted reliably for the current guide. Tables in differently formatted PDFs may be written to unresolved files and require manual review.
+- The journal workbook contains historical acronyms and abbreviations. At runtime, the first current reference abbreviation in each row is used as the primary value while preserving original aliases and source rows.
+- Passing the format check does not mean author, title, year, volume, issue, pages, or DOI metadata has been verified against publisher records.
 
 ## License
 

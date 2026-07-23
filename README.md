@@ -2,7 +2,7 @@
 
 这是一个用于 **检查和保守修复 IEEE Transactions 参考文献格式** 的本地 Skill。
 
-参考文件是 IEEE Editorial Style Manual [https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/] 中的 IEEE Reference Guide
+参考文件是 [IEEE Editorial Style Manual](https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/) 中的 IEEE Reference Guide
 
 它适合在论文投稿前处理 `.bib`、以 BibTeX 为主要内容的 `.tex`、LaTeX `thebibliography` / `\bibitem`，也可以检查对话中粘贴的 BibTeX、bibitem 或纯文本参考文献。
 
